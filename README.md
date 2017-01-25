@@ -1,0 +1,1 @@
+An sample app to save the data in MySql database.
