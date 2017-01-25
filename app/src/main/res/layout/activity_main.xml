@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kishore.database.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edName"
+        android:layout_alignStart="@+id/edName"
+        android:layout_marginTop="29dp"
+        android:id="@+id/edAddress"
+        android:hint="Enter address" />
+
+    <Button
+        android:text="Add Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edAddress"
+        android:layout_alignStart="@+id/edAddress"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edAdd" />
+
+    <Button
+        android:text="View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edAdd"
+        android:layout_alignEnd="@+id/edAdd"
+        android:layout_marginTop="34dp"
+        android:id="@+id/edView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="27dp"
+        android:id="@+id/edName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:hint="Enter Name" />
+</RelativeLayout>
